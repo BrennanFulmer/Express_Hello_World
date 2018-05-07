@@ -2,9 +2,23 @@
   link to view locally
   http://localhost:3000/
   or
-  // doesn't actually work ???
+  // viking link doesn't actually work anymore ???
   http://localhost/names/< insert name >:3000/
 */
+
+// Express hello world example
+const express = require("express");
+const app = express();
+
+app.set("view engine", "hbs");
+
+app.get("/", (req, res) => {
+  res.render("greeting");
+});
+
+app.listen(3000, () => {
+  console.log("Example app listening on port 3000!");
+});
 
 /*
 // Viking Code School example
@@ -21,11 +35,3 @@ app.listen(3000, function() {
   console.log("Kemst þó hægt fari.");
 });
 */
-
-// Express hello world example
-const express = require("express");
-const app = express();
-
-app.get("/", (req, res) => res.send("Hello World!"));
-
-app.listen(3000, () => console.log("Example app listening on port 3000!"));
