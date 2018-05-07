@@ -1,6 +1,10 @@
 /*
-  link to view locally
-  http://localhost:3000/
+  link to view locally:
+    http://localhost:3000/
+
+  heroku links (will probably delete these):
+    https://thawing-temple-34743.herokuapp.com/
+    https://git.heroku.com/thawing-temple-34743.git
 */
 
 // Express hello world example
