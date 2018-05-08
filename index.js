@@ -1,12 +1,15 @@
 /*
   link to view locally:
     http://localhost:3000/
+  or
+  localhost:3001/names/< insert name >
 
   heroku links (will probably delete these):
     https://thawing-temple-34743.herokuapp.com/
     https://git.heroku.com/thawing-temple-34743.git
 */
 
+/*
 // Express hello world example
 const express = require("express");
 const app = express();
@@ -21,9 +24,9 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log("Example app listening on port 3000!");
 });
-/**/
+*/
 
-/*
+
 // Viking Code School example
 const express = require("express");
 const app = express();
@@ -47,4 +50,4 @@ app.get("/names/:name", (req, res) => {
 app.listen(3001, () => {
   console.log("Odin is listening on port 3001!");
 });
-*/
+/**/
